@@ -1019,7 +1019,7 @@ header .carousel-item .container .element2  a:hover span{
 }
 #Order .box {
     display: flex;
-    justify-content: center;
+    margin: auto;
     align-items: center;
     
 }
@@ -1031,7 +1031,7 @@ header .carousel-item .container .element2  a:hover span{
     animation-direction: normal;
     animation-timing-function: linear;
     opacity: 1;
-    display: block;
+    margin: 0px 60px;
 }
 
 footer {
