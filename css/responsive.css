@@ -159,9 +159,7 @@ margin: 10px 15px;
    #Order form{
     width: 100%;
    }
-   #Order .box  img {
-    display: none;
-   }
+   
     footer p{
         font-size: 15px;
     }
@@ -206,9 +204,7 @@ margin: 10px 15px;
     .col-md-2 .nav-item{
        width: 100%;
     }
-     #Order .box  img {
-    display: block;
-   }
+   
 }
 /* 1050 */
 @media (min-width: 992px) and (max-width: 1300px) {
