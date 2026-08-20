@@ -450,7 +450,7 @@ header .carousel-item .container .element2  a:hover span{
 
 
 #products{
-    background-color: #193038;
+    background: linear-gradient(to right, #132229, #274651, #0f2027);
     overflow: hidden;
 }
 #products .box {
