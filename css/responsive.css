@@ -1,5 +1,73 @@
 /* 350 */
 @media (max-width: 1300px) {
+    header .carousel-item .container .carousel-caption h1{
+        font-size: 50px;
+    }
+    header .carousel-item .container .carousel-caption p{
+        font-size: 12px;
+        width: 75% !important;
+        
+    }
+
+    header .carousel-item .container .part2 img{
+        display: none;
+    }
+    header .carousel-item .container .part1 h2{
+        font-size: 50px;
+        
+    }
+    header .carousel-item .container .part1 hr{
+        width: 340px;
+    }
+    header .carousel-item .container .part1 .photo{
+        width: 140px;
+        margin-top: 50px;
+        top: 30px;
+    }
+    header .carousel-item .container .part1 p{
+        font-size: 13px;
+    }
+
+    header .carousel-item .element1 img{
+        display: none;
+    }
+    header .carousel-item .element2 h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    header .carousel-item.active .element2 hr{
+        width: 150px;
+    }
+    header .carousel-item .element2 p{
+        font-size:16px ;
+    }
+    header .carousel-item .element2 .box img{
+   width: 40px;
+}
+header .carousel-item .element2 .box{
+    margin: 0px 10px;
+}
+header .carousel-control-next,
+header .carousel-control-prev{
+    bottom: 15px;
+     width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+header .carousel-control-next{
+    right: 40px;
+    left: auto;
+}
+
+header .carousel-control-prev{
+    left: auto;
+    right: 70px;
+    margin-right: 15px;      
+}
+header button:hover i{
+    font-size: 10px;
+}
+
     #products{
     background-color: #193038;
     overflow: auto;
@@ -59,26 +127,102 @@
     margin: auto;
     margin-bottom: 60px;
    }
+   .col-md-2 .item {
+    width: 100%;
+    margin-bottom: 30px;
+   }
+   #pills-tab {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: auto;
+}
+.col-md-2 .nav-item{
+    width: 100px;
+  border-radius: 5px;
+
+}
+.col-md-2 .nav-link{
+  border-right: 1.5px solid white ; 
+}
+.nav-pills .nav-link img{
+margin: 10px 15px;
+}
+#Menu .box {
+    width: 250px;
+    margin: auto;
+    margin-block: 20px;
+}
+
+}
    #Order form{
     width: 100%;
    }
    #Order .box  img {
     display: none;
    }
-    
-}
+    footer p{
+        font-size: 15px;
+    }
+
 /* 450 */
-@media (min-width: 371px) and (max-width: 1300px) {}
+@media (min-width: 371px) and (max-width: 1300px) {
+    header .carousel-item .container .part1 hr{
+        width: 420px;
+    }
+}
 /* 650 */
-@media (min-width: 577px) and (max-width: 1300px) {}
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .carousel-item .container .part1 hr{
+    width: 400px;
+    margin: auto;
+}
+ header .carousel-item .container .part1{
+    padding-left: 0px;
+ }
+ header .carousel-item .container .part1 .box{
+    margin: 20px 0px;
+ }
+ header .carousel-item .container .part1 p{
+        font-size: 13px;
+        width: 70%;
+        margin: auto;
+    }
+
+    #Menu .box {
+    margin-top: 25px;
+}
+}
 /* 850 */
 @media (min-width: 769px) and (max-width: 1300px) {
     #Team .col-md-4{
         width: 33.33%;
     }
+   
+    #pills-tab{
+        flex-direction: column;
+    }
+    .col-md-2 .nav-item{
+       width: 100%;
+    }
+     #Order .box  img {
+    display: block;
+   }
 }
 /* 1050 */
 @media (min-width: 992px) and (max-width: 1300px) {
+   
+    header .carousel-item .container .part1 hr{
+    width: 350px;
+    margin: auto;
+}
+header .carousel-item .container .part2 img{
+    display: block;
+}
+header .carousel-item .element1 img{
+        display: block;
+    }
     #About .box2 .item{
     width: 100%;
     height: 300px;
@@ -106,6 +250,18 @@
     width: initial;
     margin: auto;
    }
+   .col-md-2 .item{
+    width: 80px;
+
+   }
+    #pills-tab{
+        flex-direction: column;
+    }
+    .col-md-2 .nav-item{
+       width: 100%;
+    }
 }
 
-@media (min-width: 1181px) and (max-width: 1300px) {}
+@media (min-width: 1181px) and (max-width: 1300px) {
+    
+}
